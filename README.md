@@ -44,9 +44,9 @@ Then input a valid JSON object string, and hit Return.
 The output is sent to std.out.
 
 ##### Valid runs
-`java -jar ./build/libs/mongodb-coding-challenge-shadow.jar 
+`java -jar ./build/libs/mongodb-coding-challenge-shadow.jar <br/>
 {"a": 1, "b": true, "c": {"d": 3,"e": "test"}}
-{"a":1,"b":true,"c.d":3,"c.e":"test"}
+{"a":1,"b":true,"c.d":3,"c.e":"test"} <br/>
 
 test.json contains same input as above<br/>
 `cat test.json | java -jar ./build/libs/mongodb-coding-challenge-shadow.jar`<br/>
