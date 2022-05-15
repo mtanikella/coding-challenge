@@ -48,9 +48,9 @@ The output is sent to std.out.
 {"a": 1, "b": true, "c": {"d": 3,"e": "test"}}  
 {"a":1,"b":true,"c.d":3,"c.e":"test"}  
 
-test.json contains same input as above<br/>
-`cat test.json | java -jar ./build/libs/mongodb-coding-challenge-shadow.jar`<br/>
-{"a":1,"b":true,"c.d":3,"c.e":"test"}
+test.json contains same input as above.  
+`cat test.json | java -jar ./build/libs/mongodb-coding-challenge-shadow.jar`  
+{"a":1,"b":true,"c.d":3,"c.e":"test"}  
 
 ##### Invalid run
 Note the missing brace at the end of the input<br/>
