@@ -53,7 +53,7 @@ test.json contains same input as above.
 {"a":1,"b":true,"c.d":3,"c.e":"test"}  
 
 ##### Invalid run
-Note the missing brace at the end of the input<br/>
-`java -jar ./build/libs/mongodb-coding-challenge-shadow.jar`<br/>
-{"a": 3<br/>
-Input is not a valid JSON object<br/>
+Note the missing brace at the end of the input  
+`java -jar ./build/libs/mongodb-coding-challenge-shadow.jar`  
+{"a": 3  
+Input is not a valid JSON object  
